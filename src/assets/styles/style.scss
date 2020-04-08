@@ -1,2 +1,53 @@
 @import './fonts.scss';
 @import './../../bootstrap/bootstrap';
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.top_header {
+  &__logo {
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #041133;
+  }
+  &__btn_orange {
+    background: url('../images/btn_orange.svg') 0px -5px no-repeat;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+  }
+  nav a {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #041133;
+    opacity: 0.7;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  &__burger {
+    cursor: pointer;
+    &_one {
+      width: 16px;
+    }
+    &_two {
+      width: 20px;
+    }
+    &_three {
+      width: 11px;
+    }
+    &_item {
+      background: #6783fe;
+      border-radius: 2px;
+      height: 2px;
+      display: block;
+      margin: 4px;
+    }
+  }
+}
