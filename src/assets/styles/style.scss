@@ -169,4 +169,125 @@ body {
       }
     }
   }
+  .partners {
+    h4 {
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 13px;
+      text-align: center;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #6783fe;
+      opacity: 0.8;
+    }
+    h3 {
+      font-family: YanoneKaffeesatz, sans-serif;
+      font-size: 35px;
+      line-height: 35px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #041133;
+      opacity: 0.8;
+    }
+    &__mts {
+      background: url(../images/partners/mts.svg) 0 0 no-repeat;
+      width: 68px;
+      height: 25px;
+    }
+    &__rzd {
+      background: url(../images/partners/rzd.svg) 0 0 no-repeat;
+      width: 66px;
+      height: 40px;
+    }
+    &__vtb24 {
+      background: url(../images/partners/vtb24.svg) 0 0 no-repeat;
+      width: 73px;
+      height: 20px;
+    }
+    &__sber {
+      background: url(../images/partners/sber.svg) 0 0 no-repeat;
+      width: 106px;
+      height: 20px;
+    }
+    &__vostbank {
+      background: url(../images/partners/vostbank.svg) 0 0 no-repeat;
+      width: 157px;
+      height: 20px;
+    }
+    &__tele2 {
+      background: url(../images/partners/tele2.svg) 0 0 no-repeat;
+      width: 46px;
+      height: 20px;
+    }
+    &__siemens {
+      background: url(../images/partners/siemens.svg) 0 0 no-repeat;
+      width: 113px;
+      height: 30px;
+    }
+    &__russian_standart {
+      background: url(../images/partners/russian_standart.svg) 0 0 no-repeat;
+      width: 112px;
+      height: 50px;
+    }
+    &__russia_post {
+      background: url(../images/partners/russia_post.svg) 0 0 no-repeat;
+      width: 89px;
+      height: 40px;
+    }
+    &__museum {
+      background: url(../images/partners/museum.svg) 0 0 no-repeat;
+      width: 130px;
+      height: 58px;
+    }
+    &__posuda_centr {
+      background: url(../images/partners/posuda_centr.svg) 0 0 no-repeat;
+      width: 70px;
+      height: 62px;
+    }
+    &__gerb {
+      background: url(../images/partners/gerb.svg) 0 0 no-repeat;
+      width: 112px;
+      height: 50px;
+    }
+    &__dv_bank {
+      background: url(../images/partners/dv_bank.svg) 0 0 no-repeat;
+      width: 89px;
+      height: 40px;
+    }
+    &__dtu {
+      background: url(../images/partners/dtu.svg) 0 0 no-repeat;
+      width: 129px;
+      height: 58px;
+    }
+    &__olen {
+      background: url(../images/partners/olen.svg) 0 0 no-repeat;
+      width: 41px;
+      height: 50px;
+    }
+    &__atb {
+      background: url(../images/partners/atb.svg) 0 0 no-repeat;
+      width: 55px;
+      height: 20px;
+    }
+    &__megafon {
+      background: url(../images/partners/megafon.svg) 0 0 no-repeat;
+      width: 100px;
+      height: 30px;
+    }
+    &__rosbank {
+      background: url(../images/partners/rosbank.svg) 0 0 no-repeat;
+      width: 112px;
+      height: 50px;
+    }
+    &__vivea {
+      background: url(../images/partners/vivea.svg) 0 0 no-repeat;
+      width: 89px;
+      height: 40px;
+    }
+    &__baltica {
+      background: url(../images/partners/baltica.svg) 0 0 no-repeat;
+      width: 113px;
+      height: 20px;
+    }
+  }
 }
