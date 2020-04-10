@@ -1,8 +1,4 @@
-import './styles/style.scss'
-import '@/bootstrap/bootstrap'
-//import '@models/qwerty.txt'
-import * as $ from 'jquery'
+import './assets/styles/style.scss';
+import './bootstrap/bootstrap';
 
-$(document).ready(function ($) {
-
-});
+$(document).ready(function ($) {});
