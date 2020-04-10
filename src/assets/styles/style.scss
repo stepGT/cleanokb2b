@@ -8,6 +8,18 @@ body {
   .top_header {
     background: #fff;
     box-shadow: 0 0 11px rgba(4, 17, 51, 0.11);
+    display: none;
+    position: fixed;
+    width: 1440px;
+    z-index: 1;
+    cursor: pointer;
+    &__block {
+      background: transparent;
+      height: 60px;
+      position: fixed;
+      width: 1440px;
+      z-index: 1;
+    }
     .row {
       height: 60px;
     }
@@ -142,7 +154,7 @@ body {
       height: 900px;
     }
     nav {
-      padding: 10px 10px 0 0;
+      padding: 18px 10px 0 0;
       a {
         font-size: 14px;
         line-height: 20px;
