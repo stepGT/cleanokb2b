@@ -433,4 +433,55 @@ body {
       box-shadow: none !important;
     }
   }
+  .services {
+    /*margin: 10% auto;
+    width: 85%;*/
+    &__tabs li {
+      margin: 20px 0;
+    }
+    &__tabs li a {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      color: #041133;
+      opacity: 0.4;
+      text-decoration: none;
+    }
+    &__tabs li.active a {
+      color: #6783fe;
+      opacity: 1;
+    }
+    &__tab1 {
+      background: url(../images/01.svg);
+      width: 28px;
+      height: 22px;
+    }
+    &__tab2 {
+      background: url(../images/02.svg);
+      width: 28px;
+      height: 22px;
+    }
+    &__tab3 {
+      background: url(../images/03.svg);
+      width: 28px;
+      height: 25px;
+    }
+    &__tab4 {
+      background: url(../images/04.svg);
+      width: 28px;
+      height: 23px;
+    }
+    &__tab5 {
+      background: url(../images/05.svg);
+      width: 28px;
+      height: 25px;
+    }
+    .tabs-left {
+      border-right: 1px solid #ddd;
+    }
+    .tabs-right {
+      border-left: 1px solid #ddd;
+    }
+  }
 }
