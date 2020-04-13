@@ -9,8 +9,10 @@ $(document).ready(function ($) {
     $('.services__tab_content_item').hide();
     // Get all a elements with class="services__tab_link" and remove the class 'active'
     $('a.services__tab_link').removeClass('active');
+    $('.services__tabs li').removeClass('active');
     // Show the current tab, and add an 'active' class to the link that opened the tab
     $(this).addClass('active');
+    $(this).closest('li').addClass('active');
     $('#' + service_link).show();
   });
 
