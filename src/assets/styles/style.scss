@@ -581,7 +581,31 @@ body {
       width: 28px;
       height: 25px;
     }
-    .tabs-left {
+    &__vtab_four_1 {
+      background: url(../images/vtab_four_1.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_2 {
+      background: url(../images/vtab_four_2.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_3 {
+      background: url(../images/vtab_four_3.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_4 {
+      background: url(../images/vtab_four_4.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_5 {
+      background: url(../images/vtab_four_5.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_6 {
+      background: url(../images/vtab_four_6.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_img {
+      height: 30px;
+    }
+    #vtab_four {
+      p {
+        text-align: center;
+      }
     }
   }
 }
