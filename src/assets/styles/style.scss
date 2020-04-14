@@ -8,6 +8,18 @@ body {
   .top_header {
     background: #fff;
     box-shadow: 0 0 11px rgba(4, 17, 51, 0.11);
+    display: none;
+    position: fixed;
+    width: 1440px;
+    z-index: 1;
+    cursor: pointer;
+    &__block {
+      background: transparent;
+      height: 60px;
+      position: fixed;
+      width: 1440px;
+      z-index: 1;
+    }
     .row {
       height: 60px;
     }
@@ -142,7 +154,7 @@ body {
       height: 900px;
     }
     nav {
-      padding: 10px 10px 0 0;
+      padding: 18px 10px 0 0;
       a {
         font-size: 14px;
         line-height: 20px;
@@ -198,101 +210,121 @@ body {
       background: url(../images/partners/mts.svg) 0 0 no-repeat;
       width: 68px;
       height: 25px;
+      margin: auto;
     }
     &__rzd {
       background: url(../images/partners/rzd.svg) 0 0 no-repeat;
       width: 66px;
       height: 40px;
+      margin: auto;
     }
     &__vtb24 {
       background: url(../images/partners/vtb24.svg) 0 0 no-repeat;
       width: 73px;
       height: 20px;
+      margin: auto;
     }
     &__sber {
       background: url(../images/partners/sber.svg) 0 0 no-repeat;
       width: 106px;
       height: 20px;
+      margin: auto;
     }
     &__vostbank {
       background: url(../images/partners/vostbank.svg) 0 0 no-repeat;
       width: 157px;
       height: 20px;
+      margin: auto;
     }
     &__tele2 {
       background: url(../images/partners/tele2.svg) 0 0 no-repeat;
       width: 46px;
       height: 20px;
+      margin: auto;
     }
     &__siemens {
       background: url(../images/partners/siemens.svg) 0 0 no-repeat;
       width: 113px;
       height: 30px;
+      margin: auto;
     }
     &__russian_standart {
       background: url(../images/partners/russian_standart.svg) 0 0 no-repeat;
       width: 112px;
       height: 50px;
+      margin: auto;
     }
     &__russia_post {
       background: url(../images/partners/russia_post.svg) 0 0 no-repeat;
       width: 89px;
       height: 40px;
+      margin: auto;
     }
     &__museum {
       background: url(../images/partners/museum.svg) 0 0 no-repeat;
       width: 130px;
       height: 58px;
+      margin: auto;
     }
     &__posuda_centr {
       background: url(../images/partners/posuda_centr.svg) 0 0 no-repeat;
       width: 70px;
       height: 62px;
+      margin: auto;
     }
     &__gerb {
       background: url(../images/partners/gerb.svg) 0 0 no-repeat;
       width: 112px;
       height: 50px;
+      margin: auto;
     }
     &__dv_bank {
       background: url(../images/partners/dv_bank.svg) 0 0 no-repeat;
       width: 89px;
       height: 40px;
+      margin: auto;
     }
     &__dtu {
       background: url(../images/partners/dtu.svg) 0 0 no-repeat;
       width: 129px;
       height: 58px;
+      margin: auto;
     }
     &__olen {
       background: url(../images/partners/olen.svg) 0 0 no-repeat;
       width: 41px;
       height: 50px;
+      margin: auto;
     }
     &__atb {
       background: url(../images/partners/atb.svg) 0 0 no-repeat;
       width: 55px;
       height: 20px;
+      margin: auto;
     }
     &__megafon {
       background: url(../images/partners/megafon.svg) 0 0 no-repeat;
       width: 100px;
       height: 30px;
+      margin: auto;
     }
     &__rosbank {
       background: url(../images/partners/rosbank.svg) 0 0 no-repeat;
       width: 112px;
       height: 50px;
+      margin: auto;
     }
     &__vivea {
       background: url(../images/partners/vivea.svg) 0 0 no-repeat;
       width: 89px;
       height: 40px;
+      margin: auto;
     }
     &__baltica {
       background: url(../images/partners/baltica.svg) 0 0 no-repeat;
       width: 113px;
       height: 20px;
+      margin: auto;
     }
   }
   .footer {
@@ -419,6 +451,218 @@ body {
       background-color: transparent !important;
       outline: none !important;
       box-shadow: none !important;
+    }
+  }
+  .services {
+    margin: 10% auto;
+    width: 85%;
+    &__tab_row {
+      height: 100px;
+    }
+    &__tab_h3 {
+      height: 50px;
+    }
+    &__tab_two_image {
+      background: url(../images/vtab_two_image.svg) 0 0 no-repeat;
+    }
+    &__tab_three_image {
+      background: url(../images/vtab_three_image.svg) 0 0 no-repeat;
+    }
+    &__tab_five_image {
+      background: url(../images/vtab_five_image.svg) 0 0 no-repeat;
+    }
+    &__tab_image {
+      height: 390px;
+      background-size: cover;
+      box-shadow: 0 0 11px rgba(4, 17, 51, 0.11);
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    &__h4 {
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #6783fe;
+      opacity: 0.8;
+    }
+    &__h3 {
+      font-family: YanoneKaffeesatz, sans-serif;
+      font-size: 35px;
+      line-height: 35px;
+      letter-spacing: 0.01em;
+      color: #041133;
+      opacity: 0.8;
+      margin-bottom: 30px;
+      width: 271px;
+    }
+    &__tab_link.active {
+      color: #6783fe !important;
+      opacity: 1 !important;
+    }
+    &__tabs li {
+      margin: 10px 0;
+    }
+    &__tabs li.active {
+      .services__tab1 {
+        background: url(../images/01_active.svg);
+      }
+      .services__tab2 {
+        background: url(../images/02_active.svg);
+      }
+      .services__tab3 {
+        background: url(../images/03_active.svg);
+      }
+      .services__tab4 {
+        background: url(../images/04_active.svg);
+      }
+      .services__tab5 {
+        background: url(../images/05_active.svg);
+      }
+    }
+    &__tabs li a {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      color: #041133;
+      opacity: 0.4;
+      text-decoration: none;
+    }
+    &__tab_content {
+      height: 100%;
+      background: #fff;
+      box-shadow: 0 0 11px rgba(4, 17, 51, 0.11);
+      border-radius: 5px;
+      border-left: 3px solid #6783fe;
+    }
+    &__tab_content_item {
+      display: none;
+      &.active {
+        display: block;
+      }
+      &_col_second {
+        background: #f4f8fb;
+      }
+      h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: rgba(4, 17, 51, 0.7);
+        margin: 20px 0 0 20px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(4, 17, 51, 0.7);
+        margin: 0 0 0 20px;
+      }
+    }
+    &__tab_content_div {
+      div:first-child {
+        margin-right: 20px;
+      }
+      display: flex;
+      align-items: center;
+      margin: 40px 0 0 30px;
+    }
+    &__tab_content_div_1 {
+      &_img {
+        background: url(../images/vtab_five_icon_1.svg) no-repeat 0 0 transparent;
+        width: 28px;
+        height: 30px;
+      }
+    }
+    &__tab_content_div_2 {
+      &_img {
+        background: url(../images/vtab_five_icon_2.svg) no-repeat 0 0 transparent;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    &__tab_content_div_3 {
+      &_img {
+        background: url(../images/vtab_five_icon_3.svg) no-repeat 0 0 transparent;
+        width: 23px;
+        height: 30px;
+      }
+    }
+    &__tab_content_div_4 {
+      &_img {
+        background: url(../images/vtab_five_icon_4.svg) no-repeat 0 0 transparent;
+        width: 25px;
+        height: 32px;
+      }
+    }
+    &__tab_content_items_wrapper {
+      padding: 30px;
+    }
+    &__tab1 {
+      background: url(../images/01.svg);
+      width: 28px;
+      height: 22px;
+    }
+    &__tab1 {
+      background: url(../images/01.svg);
+      width: 28px;
+      height: 22px;
+    }
+    &__tab2 {
+      background: url(../images/02.svg);
+      width: 28px;
+      height: 22px;
+    }
+    &__tab3 {
+      background: url(../images/03.svg);
+      width: 28px;
+      height: 25px;
+    }
+    &__tab4 {
+      background: url(../images/04.svg);
+      width: 28px;
+      height: 23px;
+    }
+    &__tab5 {
+      background: url(../images/05.svg);
+      width: 28px;
+      height: 25px;
+    }
+    &__vtab_four_1 {
+      background: url(../images/vtab_four_1.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_2 {
+      background: url(../images/vtab_four_2.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_3 {
+      background: url(../images/vtab_four_3.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_4 {
+      background: url(../images/vtab_four_4.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_5 {
+      background: url(../images/vtab_four_5.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_6 {
+      background: url(../images/vtab_four_6.svg) center 0 transparent no-repeat;
+    }
+    &__vtab_four_img {
+      height: 30px;
+    }
+    #vtab_four {
+      h3.first {
+        margin: 15px 70px;
+      }
+      h3.second {
+        margin: 15px 0 15px 0;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    &__tab_four_div {
+      height: 60px;
     }
   }
 }

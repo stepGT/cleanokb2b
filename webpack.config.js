@@ -16,7 +16,7 @@ module.exports = {
   },
   devServer: {
     host: 'localhost',
-    port: 7777
+    port: 7077
   },
   plugins: [
     new HtmlWebpackPlugin({
