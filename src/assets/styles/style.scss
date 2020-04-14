@@ -468,6 +468,9 @@ body {
     &__tab_three_image {
       background: url(../images/vtab_three_image.svg) 0 0 no-repeat;
     }
+    &__tab_five_image {
+      background: url(../images/vtab_five_image.svg) 0 0 no-repeat;
+    }
     &__tab_image {
       height: 390px;
       background-size: cover;
@@ -555,6 +558,42 @@ body {
         line-height: 20px;
         color: rgba(4, 17, 51, 0.7);
         margin: 0 0 0 20px;
+      }
+    }
+    &__tab_content_div {
+      div:first-child {
+        margin-right: 20px;
+      }
+      display: flex;
+      align-items: center;
+      margin: 40px 0 0 30px;
+    }
+    &__tab_content_div_1 {
+      &_img {
+        background: url(../images/vtab_five_icon_1.svg) no-repeat 0 0 transparent;
+        width: 28px;
+        height: 30px;
+      }
+    }
+    &__tab_content_div_2 {
+      &_img {
+        background: url(../images/vtab_five_icon_2.svg) no-repeat 0 0 transparent;
+        width: 30px;
+        height: 30px;
+      }
+    }
+    &__tab_content_div_3 {
+      &_img {
+        background: url(../images/vtab_five_icon_3.svg) no-repeat 0 0 transparent;
+        width: 23px;
+        height: 30px;
+      }
+    }
+    &__tab_content_div_4 {
+      &_img {
+        background: url(../images/vtab_five_icon_4.svg) no-repeat 0 0 transparent;
+        width: 25px;
+        height: 32px;
       }
     }
     &__tab_content_items_wrapper {
