@@ -370,7 +370,7 @@ body {
     }
   }
   .feedback_form {
-    margin: 1% auto;
+    margin: 66px auto;
     width: 70%;
     form {
       width: 362px;
@@ -687,6 +687,7 @@ body {
       margin-bottom: 30px;
     }
     &_box {
+      margin: auto;
       h4 {
         font-weight: bold;
         font-size: 11px;
@@ -742,6 +743,13 @@ body {
         background: url(../images/arrow_right.svg) 0 0 transparent no-repeat;
         margin-left: 15px;
       }
+    }
+  }
+  .map {
+    &__image {
+      background: url(../images/map_image.svg) 0 0 transparent no-repeat;
+      width: 1440px;
+      height: 530px;
     }
   }
 }
