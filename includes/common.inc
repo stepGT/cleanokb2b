@@ -7529,7 +7529,7 @@ function drupal_write_record($table, &$record, $primary_keys = array()) {
  * - stylesheets: Theme stylesheets; e.g., stylesheets[all][] = my-style.css.
  * - scripts: Theme scripts; e.g., scripts[] = my-script.js.
  *
- * See bartik.info for an example of a theme .info file.
+ * See cleanokb2b.info for an example of a theme .info file.
  *
  * @param $filename
  *   The file we are parsing. Accepts file with relative or absolute path.

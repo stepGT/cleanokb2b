@@ -590,11 +590,11 @@ class ModuleDependencyTestCase extends ModuleTestCase {
     // Generate the list of available themes.
     $themes = system_rebuild_theme_data();
     // Check that the mtime field exists for the bartik theme.
-    $this->assertTrue(!empty($themes['bartik']->info['mtime']), 'The bartik.info file modification time field is present.');
+    $this->assertTrue(!empty($themes['bartik']->info['mtime']), 'The cleanokb2b.info file modification time field is present.');
     // Use 0 if mtime isn't present, to avoid an array index notice.
     $test_mtime = !empty($themes['bartik']->info['mtime']) ? $themes['bartik']->info['mtime'] : 0;
     // Ensure the mtime field contains a number that is greater than zero.
-    $this->assertTrue(is_numeric($test_mtime) && ($test_mtime > 0), 'The bartik.info file modification time field contains a timestamp.');
+    $this->assertTrue(is_numeric($test_mtime) && ($test_mtime > 0), 'The cleanokb2b.info file modification time field contains a timestamp.');
   }
 }
 
