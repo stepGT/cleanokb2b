@@ -7,7 +7,9 @@ core = 7.x
 stylesheets[all][] = main.856da0027997291bb5e2.css
 scripts[] = assets/js/main.c4cc102e046d4fad0b50.js
 
-; regions[header] = Header
+regions[top_header_block] = Top header block
+regions[top_header]       = Top header
+regions[content]          = Content
 
 ; settings[shortcut_module_link] = 0
 
