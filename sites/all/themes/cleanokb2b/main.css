@@ -7047,3 +7047,9 @@ body {
   width: 1440px;
   height: 530px; }
 
+#block-block-2 .contextual-links-wrapper {
+  position: fixed;
+  right: inherit;
+  top: inherit;
+}
+

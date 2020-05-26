@@ -1,5 +1,5 @@
 <div class="container wrapper">
-    <?php print render($page['top_header_block']); ?>
+    <div class="top_header__block"></div>
     <?php print render($page['top_header']); ?>
     <section class="header">
         <div class="row">
@@ -55,78 +55,7 @@
         </div>
     </section>
     <section class="partners">
-        <div class="row">
-            <div class="col">
-                <h4 class="text-center">Наши клиенты</h4>
-                <h3 class="text-center">Нам доверяют</h3>
-            </div>
-        </div>
-        <div class="row align-items-baseline">
-            <div class="col">
-                <div class="partners__mts"></div>
-            </div>
-            <div class="col">
-                <div class="partners__rzd"></div>
-            </div>
-            <div class="col">
-                <div class="partners__vtb24"></div>
-            </div>
-            <div class="col">
-                <div class="partners__sber"></div>
-            </div>
-            <div class="col">
-                <div class="partners__vostbank"></div>
-            </div>
-            <div class="col">
-                <div class="partners__tele2"></div>
-            </div>
-            <div class="col">
-                <div class="partners__siemens"></div>
-            </div>
-        </div>
-        <div class="row align-items-baseline">
-            <div class="col">
-                <div class="partners__russian_standart"></div>
-            </div>
-            <div class="col">
-                <div class="partners__russia_post"></div>
-            </div>
-            <div class="col">
-                <div class="partners__museum"></div>
-            </div>
-            <div class="col">
-                <div class="partners__posuda_centr"></div>
-            </div>
-            <div class="col">
-                <div class="partners__gerb"></div>
-            </div>
-            <div class="col">
-                <div class="partners__dv_bank"></div>
-            </div>
-            <div class="col">
-                <div class="partners__dtu"></div>
-            </div>
-            <div class="col">
-                <div class="partners__olen"></div>
-            </div>
-        </div>
-        <div class="row align-items-baseline">
-            <div class="col">
-                <div class="partners__atb"></div>
-            </div>
-            <div class="col">
-                <div class="partners__megafon"></div>
-            </div>
-            <div class="col">
-                <div class="partners__rosbank"></div>
-            </div>
-            <div class="col">
-                <div class="partners__vivea"></div>
-            </div>
-            <div class="col">
-                <div class="partners__baltica"></div>
-            </div>
-        </div>
+      <?php print render($page['partners']); ?>
     </section>
     <section class="services">
         <div class="row">
@@ -455,77 +384,27 @@
     <section class="map">
         <div class="row">
             <div class="col-12">
-                <div class="map__image"></div>
+              <?php print render($page['map']); ?>
             </div>
         </div>
     </section>
     <section class="feedback_form">
         <div class="row">
             <div class="col">
-                <h4>оставьте заявку</h4>
-                <h3>Напишите нам</h3>
-                <p>С 2009 года создаем чистоту на объектах. Подбираем график с
-                    учетом пожеланий клиента.
-                    Экономим время, деньги и даем отличный результат за счет
-                    использования профессиональной техники,
-                    экологически безопасных средств, регулярного обучения
-                    персонала и оптимизации процесса.
-                    Заполните форму, мы свяжемся с вами в ближайшее время,
-                    обсудим задачи и предложим оптимальное
-                    решение.
-                </p>
+              <?php print render($page['feedback_form_left']); ?>
             </div>
             <div class="col">
-                <form class="form-inline">
-                    <div class="row">
-                        <div class="col feedback_form__input feedback_form__input_name">
-                            <input type="text" class="form-control"
-                                   placeholder="Ваше имя">
-                        </div>
-                        <div class="col feedback_form__input">
-                            <input type="text" class="form-control"
-                                   placeholder="+7 (">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col feedback_form__one_input">
-                            <input type="text" class="form-control"
-                                   placeholder="Наименование компании">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <textarea class="form-control"
-                                      placeholder="Напишите, о чем нам нужно знать"
-                                      name="" id=""
-                                      cols="30" rows="10"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <button>Заказать звонок</button>
-                        </div>
-                    </div>
-                </form>
+              <?php print render($page['feedback_form_right']); ?>
             </div>
         </div>
     </section>
     <footer class="footer">
         <div class="row">
             <div class="col">
-                <div class="footer__left_wrapper">
-                    <div class="top_header__logo footer__logo">cleanok</div>
-                    <p>ООО «Клин Ок» — клининговая компания на Дальнем Востоке
-                        Данные юридического лица компании ОГРН, КПП
-                        г. Хабаровск, ул. Серышева, 56</p>
-                </div>
+              <?php print render($page['footer_left']); ?>
             </div>
             <div class="col">
-                <div class="footer__right_wrapper">
-                    <h3>Единая справочная служба</h3>
-                    <span>по России звонок бесплатный</span>
-                    <div>8 800 333 99 09</div>
-                </div>
+              <?php print render($page['footer_right']); ?>
             </div>
         </div>
     </footer>

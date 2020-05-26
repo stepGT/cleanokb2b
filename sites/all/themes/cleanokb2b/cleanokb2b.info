@@ -8,9 +8,14 @@ stylesheets[all][] = main.css
 scripts[] = assets/js/main.1a9b84f3e824bace659a.js
 scripts[] = assets/js/main.js
 
-regions[top_header_block] = Top header block
-regions[top_header]       = Top header
-regions[content]          = Content
+regions[top_header]    = Top header
+regions[content]       = Content
+regions[partners]      = Partners
+regions[feedback_form_left]  = Feedback form left
+regions[feedback_form_right] = Feedback form right
+regions[map] = Map
+regions[footer_left]   = Footer left
+regions[footer_right]  = Footer right
 
 ; settings[shortcut_module_link] = 0
 
