@@ -4,8 +4,9 @@ package = Core
 version = VERSION
 core = 7.x
 
-stylesheets[all][] = main.856da0027997291bb5e2.css
-scripts[] = assets/js/main.c4cc102e046d4fad0b50.js
+stylesheets[all][] = main.css
+scripts[] = assets/js/main.1a9b84f3e824bace659a.js
+scripts[] = assets/js/main.js
 
 regions[top_header_block] = Top header block
 regions[top_header]       = Top header
