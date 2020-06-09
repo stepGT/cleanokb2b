@@ -54,10 +54,12 @@
             </div>
         </div>
     </section>
+    
     <section class="partners">
       <?php print render($page['partners']); ?>
     </section>
-    <section class="services">
+
+    <!--<section class="services">
         <div class="row">
             <div class="col">
                 <h4 class="services__h4">услуги</h4>
@@ -326,7 +328,22 @@
 
             <div class="clearfix"></div>
         </div>
+    </section>-->
+    <section class="services">
+        <div class="row">
+            <div class="col">
+                <h4 class="services__h4">услуги</h4>
+                <h3 class="services__h3">Берем на себя заботу о вашей
+                    недвижимости</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+              <?echo views_embed_view('views_vertical_tabs', 'page'); ?>
+            </div>
+        </div>
     </section>
+
     <section class="certificates">
         <div class="row">
             <div class="col">
