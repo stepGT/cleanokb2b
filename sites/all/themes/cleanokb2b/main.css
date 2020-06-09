@@ -7052,4 +7052,56 @@ body {
   right: inherit;
   top: inherit;
 }
-
+/* Views vertical tabs - page /views-vertical-tabs */
+.view-views-vertical-tabs {
+  width: 1200px;
+}
+.view-views-vertical-tabs .vertical-tabs-panes {
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 11px rgba(4, 17, 51, 0.11);
+  border-radius: 5px;
+  border-left: 3px solid #6783fe;
+}
+.view-views-vertical-tabs .vertical-tabs {
+  border: none;
+  margin: 1em 0 1em 17em;
+}
+.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list {
+  width: 17em;
+  margin: -1px 0 -1px -17em;
+}
+.view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #041133;
+  opacity: 0.4;
+}
+.view-views-vertical-tabs .vertical-tabs-list li.selected a {
+  opacity: 1;
+}
+.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list .selected strong {
+  color: #6783fe;
+}
+.view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a:hover {
+  outline: none;
+}
+.view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a:hover strong,
+.view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a:active strong,
+.view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a:focus strong {
+  text-decoration: none;
+}
+.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list {
+  border-top: none;
+}
+.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list li {
+  border: none;
+  outline: none;
+  background: none;
+}
+.wrapper .services__tab_link.active {
+  color: #6783fe !important;
+  opacity: 1 !important;
+}
