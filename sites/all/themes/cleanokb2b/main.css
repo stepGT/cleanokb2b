@@ -7062,6 +7062,7 @@ body {
   box-shadow: 0 0 11px rgba(4, 17, 51, 0.11);
   border-radius: 5px;
   border-left: 3px solid #6783fe;
+  min-height: 285px;
 }
 .view-views-vertical-tabs .vertical-tabs {
   border: none;
@@ -7073,7 +7074,7 @@ body {
 }
 .view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #041133;
@@ -7082,7 +7083,8 @@ body {
 .view-views-vertical-tabs .vertical-tabs-list li.selected a {
   opacity: 1;
 }
-.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list .selected strong {
+.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list .selected strong,
+.view-views-vertical-tabs .vertical-tabs ul.vertical-tabs-list .selected span.summary {
   color: #6783fe;
 }
 .view-views-vertical-tabs .vertical-tabs-list .vertical-tab-button a:hover {
@@ -7104,4 +7106,18 @@ body {
 .wrapper .services__tab_link.active {
   color: #6783fe !important;
   opacity: 1 !important;
+}
+
+.view-views-vertical-tabs .vertical-tabs li.vertical-tab-button a {
+  display: flex;
+  align-items: center;
+}
+
+.view-views-vertical-tabs .vertical-tabs li.vertical-tab-button a strong {
+  font-family: YanoneKaffeesatz, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 35px;
+  padding-right: 5%;
 }
