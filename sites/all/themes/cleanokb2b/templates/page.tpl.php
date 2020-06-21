@@ -1,6 +1,31 @@
 <div class="container wrapper">
     <div class="top_header__block"></div>
-    <?php print render($page['top_header']); ?>
+    <?php //print render($page['top_header']); ?>
+    <section class="top_header">
+        <div class="row align-items-center">
+            <div class="col-2">
+                <div class="top_header__logo">cleanok</div>
+            </div>
+            <div class="col-4">
+                <div class="float-right top_header__btn_small_orange">Заказать
+                    звонок
+                </div>
+            </div>
+            <div class="col-6">
+                <nav class="text-right">
+                  <?php
+                  $menu = menu_tree('menu-top-header-menu');
+                  echo render($menu);
+                  ?>
+                    <div class="float-right top_header__burger">
+                        <span class="top_header__burger_item top_header__burger_one"></span>
+                        <span class="top_header__burger_item top_header__burger_two"></span>
+                        <span class="top_header__burger_item top_header__burger_three"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
     <section class="header">
         <div class="row">
             <div class="col-6">
@@ -31,10 +56,10 @@
             <div class="col-6">
                 <div class="header__banner">
                     <nav class="text-right">
-                        <a href="#">Клиенты</a>
-                        <a href="#">Услуги</a>
-                        <a href="#">Сертификаты</a>
-                        <a href="#">Контакты</a>
+                      <?php
+                      $menu = menu_tree('menu-top-header-menu');
+                      echo render($menu);
+                      ?>
                         <div class="float-right top_header__burger">
                             <span class="top_header__burger_item top_header__burger_one"></span>
                             <span class="top_header__burger_item top_header__burger_two"></span>

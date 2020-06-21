@@ -6490,7 +6490,7 @@ body {
   color: #fff;
   padding-top: 5px; }
 .wrapper .top_header nav div {
-  margin-right: 10px; }
+  margin-right: 9px; }
 .wrapper .top_header nav a {
   font-size: 14px;
   line-height: 20px;
@@ -6578,7 +6578,7 @@ body {
   background: url(assets/images/header__banner.a425052a2128fbdf074ea4c78877d554.svg) 0 0 no-repeat;
   height: 900px; }
 .wrapper .header nav {
-  padding: 18px 10px 0 0; }
+  padding: 17px 10px 0 0; }
 .wrapper .header nav a {
   font-size: 14px;
   line-height: 20px;
@@ -7120,4 +7120,19 @@ body {
   font-size: 35px;
   line-height: 35px;
   padding-right: 5%;
+}
+.top_header ul.menu li,
+.header ul.menu li {
+  display: inline-block;
+}
+.top_header ul.menu,
+.header ul.menu {
+  float: left;
+}
+.top_header ul.menu {
+  margin-bottom: 0;
+}
+.top_header .top_header__burger {
+  margin-top: 1px;
+  margin-right: 9px;
 }
