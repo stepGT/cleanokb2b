@@ -1,0 +1,25 @@
+name = Cleanokb2b
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = main.css
+scripts[] = assets/js/main.1a9b84f3e824bace659a.js
+;scripts[] = assets/js/main.js
+
+regions[top_header]    = Top header
+regions[content]       = Content
+regions[partners]      = Partners
+regions[feedback_form_left]  = Feedback form left
+regions[feedback_form_right] = Feedback form right
+regions[map] = Map
+regions[footer_left]   = Footer left
+regions[footer_right]  = Footer right
+
+; settings[shortcut_module_link] = 0
+
+; Information added by Drupal.org packaging script on 2019-12-18
+version = "7.69"
+project = "drupal"
+datestamp = "1576696221"
